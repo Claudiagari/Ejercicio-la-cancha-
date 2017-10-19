@@ -1,0 +1,83 @@
+/*Creando el total del pasto*/
+.total-cancha{
+  background-color: #6CA974;
+  width: 1200px;
+  height: 500px;
+  color:transparent;
+  position: absolute;
+  margin-left: 8px;
+}
+/*Arco izquierdo*/
+.arco1{
+  width: 150px;
+  height: 200px;
+  border: 5px solid white;
+  display: inline-block;
+  position: relative;
+  left:50px;
+  top:150px;
+}
+/*Arco derecho*/
+.arco2{
+  width: 150px;
+	height: 200px;
+	border: 5px solid white;
+	display: inline-block;
+	position: relative;
+  left:835px;
+  top:150px;
+}
+/*Creando el centro*/
+.centro{
+     width: 200px;
+     height: 200px;
+     border-radius:150px;
+     border: 5px solid white;
+     display: inline-block;
+     position: relative;
+     top:150px;
+     left: 200px;
+}
+/*Creando el borde*/
+.borde{
+  width: 1100px;
+  height:450px;
+  border:5px solid white;
+  display: inline-block;
+  position: absolute;
+  left:58px;
+  top: 30px;
+  }
+/*Pelota pequeña del centro*/
+  .circulo-pequeño1{
+    width: 25px;
+    height: 25px;
+    border-radius:150px;
+    background:white;
+    display: inline-block;
+    position: relative;
+    top:-130px;
+    left: 100px;
+  }
+  /*Pelota pequeña de la izquierda*/
+  .circulo-pequeño2{
+    width: 25px;
+    height: 25px;
+    border-radius:150px;
+    background:white;
+    display: inline-block;
+    position: relative;
+    top:-40px;
+    right: 385px;
+    }
+  /*Pelota pequeña de la derecha*/
+    .circulo-pequeño3{
+      width: 25px;
+      height: 25px;
+      border-radius:150px;
+      background:white;
+      display: inline-block;
+      position: relative;
+      top:100px;
+      left: 370px;
+      }
